@@ -20,7 +20,7 @@ Da ja die Exposure Notification auf Betriebssystemebene gemacht wird, vermute ic
 Entwicklungsumgebung ist VS Code mit der [PlatformIO](https://platformio.org/) Erweiterung.
 
 ## Verifikation und Implementierung
-Über die Servive UUID im Advertising Payload kann festgestellt werden ob es sich um ein Exposure Notification handelt. Die UUID ist in der [Spezifikation](https://www.blog.google/documents/62/Exposure_Notification_-_Bluetooth_Specification_v1.1.pdf) verfügbar.
+Über die Service UUID im Advertising Payload kann festgestellt werden ob es sich um ein Exposure Notification handelt. Die UUID ist in der [Spezifikation](https://www.blog.google/documents/62/Exposure_Notification_-_Bluetooth_Specification_v1.1.pdf) verfügbar.
 
 Mit der [ESP32 BLE for Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/BLE) Bibliothek und einem ESP32 kann sehr einfach ein scanner gebaut werden.
 
@@ -33,6 +33,6 @@ Currently visible devices: 2
 ```
 In meiner Umgebung senden aktuell zwei Geräte eine Exposure Notification aus. Nun lasse ich mein Smartphone mal für eine längere Zeit unbenutzt liegen. Als beim entsperren die obige Meldung wieder angezeigt wurde, ich aber im Monitor kein zusätzliches Gerät gesehen habe, wusste ich, das die Exposure Notification trotz Meldung ausgesendet wird.
 
-Zusätzlich sieht man auch gut, das die Bluetooth MAC Adresse alle 15-20 Minuten gewechselt wird, um ein Tracking zu verhinden.
+Zusätzlich sieht man auch gut, das die Bluetooth MAC Adresse alle 15-20 Minuten gewechselt wird, um ein Tracking zu verhindern.
 
 Das komplette Projekt ist auf Github [https://github.com/MrReSc/ExposureNotificationMonitor/tree/main](https://github.com/MrReSc/ExposureNotificationMonitor/tree/main) verfügbar.

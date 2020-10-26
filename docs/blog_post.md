@@ -36,4 +36,7 @@ In meiner Umgebung senden aktuell zwei Geräte eine Exposure Notification aus. D
 
 Zusätzlich sieht man auch gut, das die Bluetooth MAC Adresse alle 15-20 Minuten gewechselt wird, um ein Tracking zu verhindern.
 
+# Quellen
 Das komplette Projekt ist auf Github [https://github.com/MrReSc/ExposureNotificationMonitor/tree/main](https://github.com/MrReSc/ExposureNotificationMonitor/tree/main) verfügbar.
+
+Das Logo der SwissCovid App steht unter der Mozilla Public License Version 2.0 und stammt vom DP3T Projekt.

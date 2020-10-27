@@ -4,7 +4,7 @@
 
 Kurz vorweg: Natürlich hätte man folgendes auch unter Android mit einer App wie z.B. BeaconScope, oder unter Linux mit `bluetoothctl` machen können. Da ich aber gerne mit den ESP's spiele, mache ich dies nun damit. Es handelt sich dabei auch nur um ein Experiment.
 
-Da es aus meiner Sicht keine datenschutztechnischen Bedenken gibt, die SwissCovid App zu verwenden, bin ich auch schon seit der öffentlichen Betaphase mit dabei und habe die Entwicklung rund um das Exposure Notification Framework von Apple und Google mitverfolgt. Das dezentrale Konzept ist sehr elegant und die App wurde transparent implementiert. Über die Genauigkeit der Distanzmessung via BLE (Bluetooth Low Energy), was ja eigentlich nur eine Aproximation ist, muss man nicht diskutieren. Aber trotzdem finde ich die App-Lösung Lösung datensparsamer und datenschutzfreundlicher als die Lösungen so mancher Gastrobetriebe (welche teils öffentlich einsehbare Gästelisten führen).
+Da es aus meiner Sicht keine datenschutztechnischen Bedenken gibt, die SwissCovid App zu verwenden, bin ich auch schon seit der öffentlichen Betaphase mit dabei und habe die Entwicklung rund um das Exposure Notification Framework von Apple und Google mitverfolgt. Das dezentrale Konzept ist sehr elegant und die App wurde transparent implementiert. Über die Genauigkeit der Distanzmessung via BLE (Bluetooth Low Energy), was ja eigentlich nur eine Approximation ist, muss man nicht diskutieren. Aber trotzdem finde ich die App-Lösung Lösung datensparsamer und datenschutzfreundlicher als die Lösungen so mancher Gastrobetriebe.
 
 Die iOS- und Android-App, sowie das Backend und Dokumentation sind auf [GitHub verfügbar](https://github.com/DP-3T).
 
